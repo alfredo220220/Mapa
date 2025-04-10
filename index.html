@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f10bf9d0c017af57ded764bb43602b22 {
+                #map_4bf230c1cfa0cb2b871068e57a462163 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -36,20 +36,18 @@
         
     <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
 </head>
 <body>
     
     
-            <div class="folium-map" id="map_f10bf9d0c017af57ded764bb43602b22" ></div>
+            <div class="folium-map" id="map_4bf230c1cfa0cb2b871068e57a462163" ></div>
         
 </body>
 <script>
     
     
-            var map_f10bf9d0c017af57ded764bb43602b22 = L.map(
-                "map_f10bf9d0c017af57ded764bb43602b22",
+            var map_4bf230c1cfa0cb2b871068e57a462163 = L.map(
+                "map_4bf230c1cfa0cb2b871068e57a462163",
                 {
                     center: [18.8, -97.2],
                     crs: L.CRS.EPSG3857,
@@ -63,43 +61,38 @@
 
         
     
-            var tile_layer_00b44be31e4e4676e40195fb2dde8369 = L.tileLayer(
+            var tile_layer_4b83cf8ee33d393cf91175e9fd559e6e = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_f10bf9d0c017af57ded764bb43602b22);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var feature_group_9dead8eb263ff8d25c5f9c184f38ea4e = L.featureGroup(
-                {}
-            ).addTo(map_f10bf9d0c017af57ded764bb43602b22);
-        
-    
-            var marker_d4f80f151fd532c0d936c69de9985a19 = L.marker(
+            var marker_03c44313fc23cbe5053b81c2e1f1ae7f = L.marker(
                 [19.323139, -99.179472],
                 {}
-            ).addTo(feature_group_9dead8eb263ff8d25c5f9c184f38ea4e);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_b1217d0214f554fefb7f80bf9ee7339b = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "university", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_33f3aa869fc1211324b50a04148012ad = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "university", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_d4f80f151fd532c0d936c69de9985a19.setIcon(beautify_icon_b1217d0214f554fefb7f80bf9ee7339b);
+            marker_03c44313fc23cbe5053b81c2e1f1ae7f.setIcon(beautify_icon_33f3aa869fc1211324b50a04148012ad);
         
     
-        var popup_d05792416ad3406e4000afe6025d9f9f = L.popup({"maxWidth": 250});
+        var popup_194deff9722e1566c521f1626a01507b = L.popup({"maxWidth": 300});
 
         
-            var html_6c6eed933fb08e336b632aa6d6f7e4b5 = $(`<div id="html_6c6eed933fb08e336b632aa6d6f7e4b5" style="width: 100.0%; height: 100.0%;"><b>Facultad de Ciencias, UNAM</b><br>Hora: 7:12 a.m.<br>Punto de salida. Altitud: 2,282 m</div>`)[0];
-            popup_d05792416ad3406e4000afe6025d9f9f.setContent(html_6c6eed933fb08e336b632aa6d6f7e4b5);
+            var html_40ccda566e97f09fe070605e65c0fcca = $(`<div id="html_40ccda566e97f09fe070605e65c0fcca" style="width: 100.0%; height: 100.0%;">     <b>Facultad de Ciencias, UNAM</b><br>     Hora: 7:12 a.m.<br>     Punto de salida. Altitud: 2,282 m     </div>`)[0];
+            popup_194deff9722e1566c521f1626a01507b.setContent(html_40ccda566e97f09fe070605e65c0fcca);
         
 
-        marker_d4f80f151fd532c0d936c69de9985a19.bindPopup(popup_d05792416ad3406e4000afe6025d9f9f)
+        marker_03c44313fc23cbe5053b81c2e1f1ae7f.bindPopup(popup_194deff9722e1566c521f1626a01507b)
         ;
 
         
     
     
-            marker_d4f80f151fd532c0d936c69de9985a19.bindTooltip(
+            marker_03c44313fc23cbe5053b81c2e1f1ae7f.bindTooltip(
                 `<div>
                      Facultad de Ciencias, UNAM
                  </div>`,
@@ -107,32 +100,32 @@
             );
         
     
-            var marker_6a39f13207867eea60fc2457d1d651cf = L.marker(
+            var marker_864113113c584b04ae452992bc870881 = L.marker(
                 [19.315, -98.882],
                 {}
-            ).addTo(feature_group_9dead8eb263ff8d25c5f9c184f38ea4e);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_0b4451f7d0ffda5b530374665e558c43 = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "road", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_cf6ce450999b051d031fbde56bfda39a = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "road", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_6a39f13207867eea60fc2457d1d651cf.setIcon(beautify_icon_0b4451f7d0ffda5b530374665e558c43);
+            marker_864113113c584b04ae452992bc870881.setIcon(beautify_icon_cf6ce450999b051d031fbde56bfda39a);
         
     
-        var popup_434a062ed1e49fb673ff25394b5af322 = L.popup({"maxWidth": 250});
+        var popup_2278eb022ef929137b18a2aa4f12d102 = L.popup({"maxWidth": 300});
 
         
-            var html_d06e0f78b68e16552641eb1d689433b4 = $(`<div id="html_d06e0f78b68e16552641eb1d689433b4" style="width: 100.0%; height: 100.0%;"><b>Parada en Ixtapaluca</b><br>Hora: 9:15 a.m.<br>Parada en carretera, altitud estimada: 3,220 m</div>`)[0];
-            popup_434a062ed1e49fb673ff25394b5af322.setContent(html_d06e0f78b68e16552641eb1d689433b4);
+            var html_fc09287f61222c12873268ef7d3ee7d0 = $(`<div id="html_fc09287f61222c12873268ef7d3ee7d0" style="width: 100.0%; height: 100.0%;">     <b>Parada en Ixtapaluca</b><br>     Hora: 9:15 a.m.<br>     Parada en carretera. Altitud estimada: 3,220 m     </div>`)[0];
+            popup_2278eb022ef929137b18a2aa4f12d102.setContent(html_fc09287f61222c12873268ef7d3ee7d0);
         
 
-        marker_6a39f13207867eea60fc2457d1d651cf.bindPopup(popup_434a062ed1e49fb673ff25394b5af322)
+        marker_864113113c584b04ae452992bc870881.bindPopup(popup_2278eb022ef929137b18a2aa4f12d102)
         ;
 
         
     
     
-            marker_6a39f13207867eea60fc2457d1d651cf.bindTooltip(
+            marker_864113113c584b04ae452992bc870881.bindTooltip(
                 `<div>
                      Parada en Ixtapaluca
                  </div>`,
@@ -140,32 +133,32 @@
             );
         
     
-            var marker_57385ff05a4a233cb57381ea1fa5b66e = L.marker(
+            var marker_3a99239c18fc999b7f6a57189fb888a1 = L.marker(
                 [18.36, -97.0461],
                 {}
-            ).addTo(feature_group_9dead8eb263ff8d25c5f9c184f38ea4e);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_acdf78b4261052c64735df297d249d06 = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "leaf", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_3e21635b9e1347292f1e4558bad6cfa8 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "leaf", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_57385ff05a4a233cb57381ea1fa5b66e.setIcon(beautify_icon_acdf78b4261052c64735df297d249d06);
+            marker_3a99239c18fc999b7f6a57189fb888a1.setIcon(beautify_icon_3e21635b9e1347292f1e4558bad6cfa8);
         
     
-        var popup_d4ea13d7c8cf1cf95506720d01b98ccd = L.popup({"maxWidth": 250});
+        var popup_a13ca83ae73876e188dffba58c501a5d = L.popup({"maxWidth": 300});
 
         
-            var html_f1f8e9834d818d3304da8a5883a8c078 = $(`<div id="html_f1f8e9834d818d3304da8a5883a8c078" style="width: 100.0%; height: 100.0%;"><b>Jardín Botánico Helia Bravo</b><br>Hora: 2:11 p.m.<br>Recorrido en Matorral Xerófilo. Ubicación en Tehuacán, Puebla.</div>`)[0];
-            popup_d4ea13d7c8cf1cf95506720d01b98ccd.setContent(html_f1f8e9834d818d3304da8a5883a8c078);
+            var html_0607c2b17a5534d2499ea71bb7b8cae7 = $(`<div id="html_0607c2b17a5534d2499ea71bb7b8cae7" style="width: 100.0%; height: 100.0%;">     <b>Jardín Botánico Helia Bravo</b><br>     Hora: 2:11 p.m.<br>     Recorrido en Matorral Xerófilo. Ubicación en Tehuacán, Puebla.     </div>`)[0];
+            popup_a13ca83ae73876e188dffba58c501a5d.setContent(html_0607c2b17a5534d2499ea71bb7b8cae7);
         
 
-        marker_57385ff05a4a233cb57381ea1fa5b66e.bindPopup(popup_d4ea13d7c8cf1cf95506720d01b98ccd)
+        marker_3a99239c18fc999b7f6a57189fb888a1.bindPopup(popup_a13ca83ae73876e188dffba58c501a5d)
         ;
 
         
     
     
-            marker_57385ff05a4a233cb57381ea1fa5b66e.bindTooltip(
+            marker_3a99239c18fc999b7f6a57189fb888a1.bindTooltip(
                 `<div>
                      Jardín Botánico Helia Bravo
                  </div>`,
@@ -173,32 +166,32 @@
             );
         
     
-            var marker_e0721ddbd281fdd0b2ea5516f6c4eddd = L.marker(
+            var marker_4c208329ac5e41632884bb20e7724732 = L.marker(
                 [18.4612, -97.3926],
                 {}
-            ).addTo(feature_group_9dead8eb263ff8d25c5f9c184f38ea4e);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_52a5ab1d90af0c59bc0729c540f596bd = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "bed", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_9531b9af9c3dd9f1edc6ba15598c81a2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "bed", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_e0721ddbd281fdd0b2ea5516f6c4eddd.setIcon(beautify_icon_52a5ab1d90af0c59bc0729c540f596bd);
+            marker_4c208329ac5e41632884bb20e7724732.setIcon(beautify_icon_9531b9af9c3dd9f1edc6ba15598c81a2);
         
     
-        var popup_5a314464b866fb50956fcc4cccb2374c = L.popup({"maxWidth": 250});
+        var popup_5df4adfcaed9636a1018dc0e880eca55 = L.popup({"maxWidth": 300});
 
         
-            var html_99a26510d09a6ecb2762d6d4bdb512a5 = $(`<div id="html_99a26510d09a6ecb2762d6d4bdb512a5" style="width: 100.0%; height: 100.0%;"><b>Hotel Aldea del Bazar, Tehuacán</b><br>Hora: 7:00 p.m.<br>Llegada al hotel, reuniones y comida.</div>`)[0];
-            popup_5a314464b866fb50956fcc4cccb2374c.setContent(html_99a26510d09a6ecb2762d6d4bdb512a5);
+            var html_e5196b0054561e6a80ef4fe0bea79f98 = $(`<div id="html_e5196b0054561e6a80ef4fe0bea79f98" style="width: 100.0%; height: 100.0%;">     <b>Hotel Aldea del Bazar, Tehuacán</b><br>     Hora: 7:00 p.m.<br>     Llegada al hotel, reuniones y comida.     </div>`)[0];
+            popup_5df4adfcaed9636a1018dc0e880eca55.setContent(html_e5196b0054561e6a80ef4fe0bea79f98);
         
 
-        marker_e0721ddbd281fdd0b2ea5516f6c4eddd.bindPopup(popup_5a314464b866fb50956fcc4cccb2374c)
+        marker_4c208329ac5e41632884bb20e7724732.bindPopup(popup_5df4adfcaed9636a1018dc0e880eca55)
         ;
 
         
     
     
-            marker_e0721ddbd281fdd0b2ea5516f6c4eddd.bindTooltip(
+            marker_4c208329ac5e41632884bb20e7724732.bindTooltip(
                 `<div>
                      Hotel Aldea del Bazar, Tehuacán
                  </div>`,
@@ -206,37 +199,32 @@
             );
         
     
-            var feature_group_1c5d16475e205b035bf216f357eac827 = L.featureGroup(
-                {}
-            ).addTo(map_f10bf9d0c017af57ded764bb43602b22);
-        
-    
-            var marker_28049e01b34d791eb519d052b469d685 = L.marker(
+            var marker_f7f0d0913e6d655aac2f49ec0c133531 = L.marker(
                 [18.1593, -97.2401],
                 {}
-            ).addTo(feature_group_1c5d16475e205b035bf216f357eac827);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_35c3021574151e850d1a532e5d260a79 = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "road", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_bc49e5f331dd7ef5e9bf5ff0427c5205 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "road", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_28049e01b34d791eb519d052b469d685.setIcon(beautify_icon_35c3021574151e850d1a532e5d260a79);
+            marker_f7f0d0913e6d655aac2f49ec0c133531.setIcon(beautify_icon_bc49e5f331dd7ef5e9bf5ff0427c5205);
         
     
-        var popup_4db2508df0aace68e8c0d069f6297854 = L.popup({"maxWidth": 250});
+        var popup_2a1ccd928de098d61ea446497fb7b4a5 = L.popup({"maxWidth": 300});
 
         
-            var html_ac257404246d565859a3f6ff5cba2994 = $(`<div id="html_ac257404246d565859a3f6ff5cba2994" style="width: 100.0%; height: 100.0%;"><b>San Antonio Texcala</b><br>Hora: 1:56 p.m.<br>Llegada después de la desviación Huajuapan.</div>`)[0];
-            popup_4db2508df0aace68e8c0d069f6297854.setContent(html_ac257404246d565859a3f6ff5cba2994);
+            var html_e72920e9004e01458f03e4ff4948ada9 = $(`<div id="html_e72920e9004e01458f03e4ff4948ada9" style="width: 100.0%; height: 100.0%;">     <b>San Antonio Texcala</b><br>     Hora: 1:56 p.m.<br>     Llegada después de la desviación Huajuapan.     </div>`)[0];
+            popup_2a1ccd928de098d61ea446497fb7b4a5.setContent(html_e72920e9004e01458f03e4ff4948ada9);
         
 
-        marker_28049e01b34d791eb519d052b469d685.bindPopup(popup_4db2508df0aace68e8c0d069f6297854)
+        marker_f7f0d0913e6d655aac2f49ec0c133531.bindPopup(popup_2a1ccd928de098d61ea446497fb7b4a5)
         ;
 
         
     
     
-            marker_28049e01b34d791eb519d052b469d685.bindTooltip(
+            marker_f7f0d0913e6d655aac2f49ec0c133531.bindTooltip(
                 `<div>
                      San Antonio Texcala
                  </div>`,
@@ -244,32 +232,32 @@
             );
         
     
-            var marker_7abe5daade4c3b7ae7be826640a39392 = L.marker(
+            var marker_57582d73af22e78d4679f37ed945c04d = L.marker(
                 [18.039, -96.9977],
                 {}
-            ).addTo(feature_group_1c5d16475e205b035bf216f357eac827);
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
     
-            var beautify_icon_faee26a2e7b2ab73453a22c1f8273318 = new L.BeautifyIcon.icon(
-                {"backgroundColor": "darkred", "borderColor": "red", "borderWidth": 3, "icon": "tree", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
+            var beautify_icon_c1c746b62b5f37fb31957d14ad7c0c6f = new L.BeautifyIcon.icon(
+                {"backgroundColor": "crimson", "borderColor": "darkred", "borderWidth": 3, "icon": "tree", "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "white"}
             )
-            marker_7abe5daade4c3b7ae7be826640a39392.setIcon(beautify_icon_faee26a2e7b2ab73453a22c1f8273318);
+            marker_57582d73af22e78d4679f37ed945c04d.setIcon(beautify_icon_c1c746b62b5f37fb31957d14ad7c0c6f);
         
     
-        var popup_75b31b55861450e6e20485aaad0030dc = L.popup({"maxWidth": 250});
+        var popup_ca51698f68f29f1d3c28aa11d59c8650 = L.popup({"maxWidth": 300});
 
         
-            var html_8bdcfa3e4e08076eb40ec0a1dce727d2 = $(`<div id="html_8bdcfa3e4e08076eb40ec0a1dce727d2" style="width: 100.0%; height: 100.0%;"><b>Santa María Chilchotla</b><br>Hora: 2:08 p.m.<br>Bosque mesófilo de montaña. Localidad 3.</div>`)[0];
-            popup_75b31b55861450e6e20485aaad0030dc.setContent(html_8bdcfa3e4e08076eb40ec0a1dce727d2);
+            var html_dcf325db9ec75816cd492006d109f6a1 = $(`<div id="html_dcf325db9ec75816cd492006d109f6a1" style="width: 100.0%; height: 100.0%;">     <b>Santa María Chilchotla</b><br>     Hora: 2:08 p.m.<br>     Bosque mesófilo de montaña. Localidad 3.     </div>`)[0];
+            popup_ca51698f68f29f1d3c28aa11d59c8650.setContent(html_dcf325db9ec75816cd492006d109f6a1);
         
 
-        marker_7abe5daade4c3b7ae7be826640a39392.bindPopup(popup_75b31b55861450e6e20485aaad0030dc)
+        marker_57582d73af22e78d4679f37ed945c04d.bindPopup(popup_ca51698f68f29f1d3c28aa11d59c8650)
         ;
 
         
     
     
-            marker_7abe5daade4c3b7ae7be826640a39392.bindTooltip(
+            marker_57582d73af22e78d4679f37ed945c04d.bindTooltip(
                 `<div>
                      Santa María Chilchotla
                  </div>`,
@@ -277,57 +265,10 @@
             );
         
     
-            var poly_line_3c4175b959ee4b49f4a830253efcbd01 = L.polyline(
+            var poly_line_ed9f2f1663674ffd361f566b902c81ca = L.polyline(
                 [[19.323139, -99.179472], [19.315, -98.882], [18.36, -97.0461], [18.4612, -97.3926], [18.1593, -97.2401], [18.039, -96.9977]],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5,10", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_f10bf9d0c017af57ded764bb43602b22);
-        
-    
-            var layer_control_1d3fbd9a47901d6efe8b98af43d25cda = {
-                base_layers : {
-                    "openstreetmap" : tile_layer_00b44be31e4e4676e40195fb2dde8369,
-                },
-                overlays :  {
-                    "D\u00eda 1" : feature_group_9dead8eb263ff8d25c5f9c184f38ea4e,
-                    "D\u00eda 2" : feature_group_1c5d16475e205b035bf216f357eac827,
-                },
-            };
-            L.control.layers(
-                layer_control_1d3fbd9a47901d6efe8b98af43d25cda.base_layers,
-                layer_control_1d3fbd9a47901d6efe8b98af43d25cda.overlays,
-                {"autoZIndex": true, "collapsed": false, "position": "topright"}
-            ).addTo(map_f10bf9d0c017af57ded764bb43602b22);
-        
-    
-            var feature_group_7f8dc14d68a478accaf7b2c91b0cf75csearchControl = new L.Control.Search({
-                layer: feature_group_7f8dc14d68a478accaf7b2c91b0cf75c,
-                
-                propertyName: 'name',
-                
-                collapsed: false,
-                textPlaceholder: 'Buscar punto...',
-                position:'topleft',                
-            
-                initial: false,
-                
-                hideMarkerOnCollapse: true
-            
-                });
-                feature_group_7f8dc14d68a478accaf7b2c91b0cf75csearchControl.on('search:locationfound', function(e) {
-                    feature_group_7f8dc14d68a478accaf7b2c91b0cf75c.setStyle(function(feature){
-                        return feature.properties.style
-                    })
-                    
-                    if(e.layer._popup)
-                        e.layer.openPopup();
-                })
-                feature_group_7f8dc14d68a478accaf7b2c91b0cf75csearchControl.on('search:collapsed', function(e) {
-                        feature_group_7f8dc14d68a478accaf7b2c91b0cf75c.setStyle(function(feature){
-                            return feature.properties.style
-                    });
-                });
-            map_f10bf9d0c017af57ded764bb43602b22.addControl( feature_group_7f8dc14d68a478accaf7b2c91b0cf75csearchControl );
-
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5,10", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_4bf230c1cfa0cb2b871068e57a462163);
         
 </script>
 </html>
